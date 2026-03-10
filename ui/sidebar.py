@@ -7,7 +7,6 @@ import streamlit as st
 
 from calculator.scenarios import InputBundle
 
-
 # ── Down payment sync callbacks ───────────────────────────────────────────────
 
 def _sync_abs_to_pct() -> None:

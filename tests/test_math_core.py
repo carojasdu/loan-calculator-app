@@ -4,7 +4,6 @@ Reference case: 190,000,000 COP loan at 12.7% E.A. over 180 months.
 All monetary values in COP (float). Tolerance for float comparisons: 1 COP.
 """
 
-import math
 
 import pytest
 

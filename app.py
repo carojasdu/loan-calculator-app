@@ -9,7 +9,11 @@ import math
 import streamlit as st
 
 from calculator import amortization, math_core
-from calculator.scenarios import ComputedResults, init_session_state, load_scenario_into_state
+from calculator.scenarios import (
+    ComputedResults,
+    init_session_state,
+    load_scenario_into_state,
+)
 from ui import metrics_panel, sidebar
 from ui.charts import build_amortization_chart
 

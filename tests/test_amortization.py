@@ -2,8 +2,8 @@
 
 import pytest
 
-from calculator.math_core import compute_payment, monthly_rate_from_ea
 from calculator.amortization import build_schedule
+from calculator.math_core import compute_payment, monthly_rate_from_ea
 
 ANNUAL_RATE = 0.127
 LOAN = 190_000_000.0

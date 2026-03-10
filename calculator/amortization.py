@@ -4,7 +4,6 @@ Amortization schedule generator for French amortization (cuota fija).
 No Streamlit or UI imports.
 """
 
-import math
 
 import pandas as pd
 
